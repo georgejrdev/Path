@@ -8,7 +8,7 @@
             </div>
 
 
-            <div @click="callRenderContent('frontend','a')" class="box" id="FrontEnd">
+            <div @click="callRenderContent('frontend','html')" class="box" id="FrontEnd">
                 <p class="selection">FrontEnd</p>
             </div>
 

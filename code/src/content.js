@@ -46,7 +46,42 @@ export const contents = {
     },
 
     'frontend':{
-
+        'html':{
+            'titulo':'HTML e CSS',
+            'descricao':'ㅤHTML e CSS são linguagens fundamentais para o desenvolvimento web. HTML é usado para estruturar o conteúdo de uma página, enquanto CSS é usado para estilizar e formatar esse conteúdo. Juntas, essas tecnologias permitem criar páginas web interativas e visualmente atraentes para os usuários.',
+            'material':'https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&ab_channel=CursoemV%C3%ADdeo',
+            'proximo':'git',
+            'voltar':'exit'
+        },
+        'git':{
+            'titulo':'GIT',
+            'descricao':'ㅤGit é uma ferramenta crucial na gestão de código fonte na área de desenvolvimento de software. Concentra-se no controle de versões, colaboração e rastreamento de mudanças em projetos de programação. Permite o trabalho em equipe, histórico detalhado de alterações e ramificação para desenvolvimento paralelo.',
+            'material':'https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA',
+            'proximo':'js',
+            'voltar':'html'
+        },
+        'js':{
+            'titulo':'JAVASCRIPT',
+            'descricao':'ㅤJavaScript (JS) é uma linguagem de programação amplamente utilizada no desenvolvimento web. Ele permite adicionar interatividade e dinamismo às páginas HTML, manipulando eventos, alterando conteúdo e interagindo com o usuário. Com JavaScript, é possível criar aplicativos web robustos e responsivos, aproveitando seu suporte em todos os principais navegadores.',
+            'material':'https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1',
+            'proximo':'API',
+            'voltar':'git'
+        },
+        'API':{
+            'titulo':"CONSUMINDO API'S",
+            'descricao':'ㅤO consumo de APIs é essencial no desenvolvimento de software, permitindo acessar e integrar facilidades de serviços externos em aplicativos. Isso proporciona acesso eficiente a dados e funcionalidades, promovendo a interoperabilidade entre sistemas e facilitando o desenvolvimento ágil e escalável de aplicações distribuídas.',
+            'material':'https://www.youtube.com/watch?v=qIGYM4S8x50&pp=ygUSY29uc3VtaW5kbyBhcGlzIGpz',
+            'proximo':'fim',
+            'voltar':'js',
+        },
+        'fim':{
+            'titulo':'PRÓXIMOS PASSOS',
+            'descricao':'ㅤAgora é com você! Continue explorando e evoluindo seus conhecimentos, experimentando novas tecnologias, participando de projetos desafiadores e aprendendo com a prática. Mantenha-se atualizado, compartilhe seu aprendizado e nunca pare de buscar novas oportunidades de crescimento na área de tecnologia.',
+            'material':'https://roadmap.sh/backend',
+            'proximo':'exit',
+            'voltar':'API'
+        },
+        'exit':'sair'
     },
 
     'fullstack':{
