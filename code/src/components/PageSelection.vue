@@ -12,12 +12,12 @@
                 <p class="selection">FrontEnd</p>
             </div>
 
-            <div @click="callRenderContent('fullstack','b')" class="box" id="FullStack">
+            <div @click="callRenderContent('fullstack','estruturaDeDados')" class="box" id="FullStack">
                 <p class="selection">FullStack</p>
             </div>
 
 
-            <div @click="callRenderContent('devops','c')" class="box" id="Devops">
+            <div @click="callRenderContent('devops','introducao')" class="box" id="Devops">
                 <p class="selection">Devops</p>  
             </div>
         </div>
