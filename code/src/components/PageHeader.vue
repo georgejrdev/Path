@@ -1,7 +1,7 @@
 <template>
     <header>
         <nav>
-            <p>path.io</p>
+            <p>path</p>
         </nav>
 
         <div id="header-content">
