@@ -6,9 +6,7 @@
             <div id="photo"></div>
             
             <div id="credit">
-                <p class="credits"><span class="emphasis">Feito por: </span>George Júnior</p>
-                <p class="credits"><span class="emphasis">Portfólio: </span><a class="more" target="_blank" href="https://noxusjr.github.io/Portfolio">noxusjr.github.io/Portfolio</a></p>
-                <p class="credits"><span class="emphasis">Github: </span><a class="more" target="_blank" href="https://github.com/NoxusJr">github.com/NoxusJr</a></p>
+                <p class="credits"><span class="emphasis">Feito por: </span><a target="_blank" href="https://georgejrdev.github.io/Link-Tree">George Júnior</a></p>
             </div>
         </div>
 
@@ -38,12 +36,16 @@
         height: 250px;
         background-color: var(--div-decoration);
         border-radius: 100%;
+        background-image: url("../assets/image.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
     }
 
     p.credits{
         margin: auto;
-        margin-top: 2px;
-        width: 80vw;
+        width: 100vw;
+        text-align: center;
         font-size:19px;
     }
 
@@ -68,6 +70,14 @@
         h2.more{
             margin-top: 15vh;
         }
+
+        p.credits{
+            margin: auto;
+            width: 80vw;
+            font-size:19px;
+            text-align: left;
+        }
+
 
         div#container{
             margin: 0;
